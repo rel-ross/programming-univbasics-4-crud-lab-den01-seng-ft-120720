@@ -7,9 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array1["item"]
-  array1.push=["4th"]
-  p array1
+  new_array["item"]
+  new_array << "item2"
 end
 
 def add_element_to_start_of_array(array, element)
